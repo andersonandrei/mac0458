@@ -1,0 +1,161 @@
+#+STARTUP: overview indent inlineimages logdrawer
+#+TITLE: MAC0458 - Direito e Software \linebreak \newline Transformação Digital em Governos
+#+AUTHOR: Anderson Andrei da Silva
+#+LANGUAGE:    bt-br
+#+TAGS: noexport(n) Stats(S)
+#+TAGS: Teaching(T) R(R) OrgMode(O) Python(P)
+#+TAGS: Book(b) DOE(D) Code(C) NODAL(N) FPGA(F) Autotuning(A) Arnaud(r)
+#+TAGS: DataVis(v) PaperReview(W)
+#+EXPORT_SELECT_TAGS: Blog
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+COLUMNS: %25ITEM %TODO %3PRIORITY %TAGS
+#+SEQ_TODO: TODO(t!) STARTED(s!) WAITING(w@) APPT(a!) | DONE(d!) CANCELLED(c!) DEFERRED(f!)
+
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
+#+LATEX_HEADER: \usepackage{sourcecodepro}
+#+LATEX_HEADER: \usepackage{booktabs}
+#+LATEX_HEADER: \usepackage{array}
+#+LATEX_HEADER: \usepackage{colortbl}
+#+LATEX_HEADER: \usepackage{listings}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage[english]{babel}
+#+LATEX_HEADER: \usepackage[scale=2]{ccicons}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \usepackage{relsize}
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{bm}
+#+LATEX_HEADER: \usepackage{wasysym}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage{ragged2e}
+#+LATEX_HEADER: \usepackage{textcomp}
+#+LATEX_HEADER: \usepackage{pgfplots}
+#+LATEX_HEADER: \usepackage{todonotes}
+#+LATEX_HEADER: \lstdefinelanguage{Julia}%
+#+LATEX_HEADER:   {morekeywords={abstract,struct,break,case,catch,const,continue,do,else,elseif,%
+#+LATEX_HEADER:       end,export,false,for,function,immutable,mutable,using,import,importall,if,in,%
+#+LATEX_HEADER:       macro,module,quote,return,switch,true,try,catch,type,typealias,%
+#+LATEX_HEADER:       while,<:,+,-,::,/},%
+#+LATEX_HEADER:    sensitive=true,%
+#+LATEX_HEADER:    alsoother={$},%
+#+LATEX_HEADER:    morecomment=[l]\#,%
+#+LATEX_HEADER:    morecomment=[n]{\#=}{=\#},%
+#+LATEX_HEADER:    morestring=[s]{"}{"},%
+#+LATEX_HEADER:    morestring=[m]{'}{'},%
+#+LATEX_HEADER: }[keywords,comments,strings]%
+#+LATEX_HEADER: \lstset{ %
+#+LATEX_HEADER:   backgroundcolor={},
+#+LATEX_HEADER:   basicstyle=\ttfamily\scriptsize,
+#+LATEX_HEADER:   breakatwhitespace=true,
+#+LATEX_HEADER:   breaklines=true,
+#+LATEX_HEADER:   captionpos=n,
+# #+LATEX_HEADER:   escapeinside={\%*}{*)},
+#+LATEX_HEADER:   extendedchars=true,
+#+LATEX_HEADER:   frame=n,
+#+LATEX_HEADER:   language=R,
+#+LATEX_HEADER:   rulecolor=\color{black},
+#+LATEX_HEADER:   showspaces=false,
+#+LATEX_HEADER:   showstringspaces=false,
+#+LATEX_HEADER:   showtabs=false,
+#+LATEX_HEADER:   stepnumber=2,
+#+LATEX_HEADER:   stringstyle=\color{gray},
+#+LATEX_HEADER:   tabsize=2,
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \renewcommand*{\UrlFont}{\ttfamily\smaller\relax}
+
+A palestrante Danielle Bello abordou o tema Transformação Digital em
+Governos ilustrando todo o cenário e o contexto no qual podemos
+discutir tais conceitos. A forma como a sociedade se reorganiza de
+tempos em tempos e a necessidade e crescimento da dimensão dos
+problemas enfrentados pelo governo, tem gerado crise das instituições
+e maior demanda e pressão social. Tudo isso tem se direcionado à
+soluções baseadas no uso de tecnologia.
+
+Como discutido na palestra anterior, tudo isso tem gerado a discussão
+e a evoluçao do conceito de Governo Aberto. E mais uma vez, a forma de
+juntas e evoluir todos esses conceitos é através de tecnologia e
+inovação.
+
+Assim como a transformação de um governo para que esse possa ser
+"Aberto" não é automática, mas sim gradual, Danielle nos mostrou que o
+processo de transformação digital também possui suas etapas. A
+primeira delas é marcada pela mudança de Governo Analógico para
+Eletrônico, onde os processos passam a ser eletrônicos, ou seja,
+executados através de TICs, mas sem mudar os procedimentos ou
+dinâmicas, e principalmente, sem interconexão ou acesso amplo entre
+processos. A segunda etapa parte de um Governo Eletrônico para
+Digital, onde então os processos entre diferentes secretarias começam
+a se comunicar, o acesso passa a ser mais transparente e claro, e a
+abordagem e estrutura passa a ser focada no usuário.
+
+Um Governo Digital se baseia em 6 pilares, de forma a ser 1) conduzido
+pelo usuário; 2) proativo; 3) orientado por dados; 4) concebido como
+digital; 5) aberto por padrão; 6) um governo como plataforma. Assim, traz mais
+liberdade para o usuário, aceitando opiniões, sugestões e se torna de fácil
+acesso. Ao ser pensado de uma nova forma, é estruturado e desenvolvido
+desde o início de forma a beneficiar sua integração e desenvolvimento,
+estruturado desde o início para sustentar esses 6 pilares. Também
+possui o conceito de código aberto, sendo passível de verificações de
+qualquer um que se dispunha e também acessível à modificações e
+melhorias por qualquer outro interessa que queira se basear, melhorar
+ou integrar outros sistemas.
+
+Danielle nos mostrou que podemos falar de Transformação Digital no
+Brasil desde dos anos 2000, onde já se começou a trabalhar e pensar em
+ações que tendence à essa direção. E o que torna oficial esse
+planejamento e prática é a criação do que é chamado de "Estratégias"
+que definem os requesitos, objetivos, prioridades e formas de
+acompanhar o desenvolvimentos de políticas que causem tais
+transformações, como a  Estratégia de Transformação Digital, a
+Estratégia de Governança Digital 2016-2019 e a Estratégia Brasileira
+para a Transformação Digital (e-digital).
+
+Então, nos foi mostrado em detalhes O Pátio Digital, uma política de
+Governo Aberto da Secretaria Municipal de Educação de São Paulo, que
+se baseia em transparência, invoação e colaboração. Danielle nos
+mostrou as principais entregas e ações através dessa plataforma, como
+o Prato Aberto, Código Aberto - Recurso Público Retorna ao Público,
+Dados Abertos, Fila da Creche. Onde, todos são políticas que visam
+transparecer melhor a informação aos usuários. Mas, como ainda não
+interagem entre si, entre secretarias ou são efetuados desde o início
+de forma digital e integrada, ainda não são práticas de Governos
+Digitais. E Danielle então ilustrou que o aplicativo do Prato Aberto,
+que disponbiliza a informação das refeições diáias das escoslas do
+Município de São Paulo, só agiliza e centraliza tais informações para
+os usuários, e não para os servidores público, que por sua vez, tem
+tais informações todas dispersas entre diversos arquivos e locais.
+
+Mas, ainda assim, o Pátio Digital faz parte da Estratégia de
+Transformação Digital e Governo Aberto da Secretaria Municipal de
+Educação de São Paulo, então é um projeto com políticas que almejam
+uma transformação para um Governo Digital, e dessa forma, possuem princípios e
+diretrizes como 1) Métodos ágeis; 2) Foco no usuário; 3) Priorização e
+entregas rápidas; 4) Transparência e Privacidade; 5) Ética e
+integridade; 6) Open source; que são baseadas nos 6 pilares
+apresentados acima.
+
+Por fim, ainda sobre Transformação Digital na Educação, Danielle
+aponta que tal processo passa por etapas, em ordem de prioridade,
+como Correção, Evolução e Desenvolvimento, traçando então uma
+trajetória que corrija os erros dos sistemas existentes e permita que
+os serviços funcionem, os evolua de forma a implementar novas funcionalidades e
+então alcance o desenvolvimento de novos, abordando e solucionando
+novos problemas. E em meio à tudo isso, existem problemas como
+transições incompletas entre correções ou integrações; barreiras
+digitais, como sistemas desatualizados, abandonados ou
+impossibilitados de receberem correçoes; e a proteção e privacidade de
+dados pessoais, já que agora pensamos em dados abertos e de fácil
+acesso.
+
+Ainda, em oportunidade de conversar com a palestrante, pude questionar
+até onde um governo se diz Aberto, como se torna Digital, se existe
+essa distinção e se ocorre realmente nessa ordem. O que então ficou
+claro que essa transição existe e pode ser pensada entre a mesma de um
+Governo Eletrônico para o Digital, pois um governo pode ser Aberto por
+possuir políticas e soluções baseadas em tecnologia e transparência,
+por exemplo, mas não chega a ser Digital por não ter essas soluções
+integradas. Concluindo, um governo Aberto pode não ser Digital, mas um
+governo Digital é Aberto.
