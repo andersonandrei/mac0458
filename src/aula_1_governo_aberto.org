@@ -1,0 +1,133 @@
+#+STARTUP: overview indent inlineimages logdrawer
+#+TITLE: MAC0458 - Direito e Software \linebreak \newline Governo Aberto
+#+AUTHOR: Anderson Andrei da Silva
+#+LANGUAGE:    bt-br
+#+TAGS: noexport(n) Stats(S)
+#+TAGS: Teaching(T) R(R) OrgMode(O) Python(P)
+#+TAGS: Book(b) DOE(D) Code(C) NODAL(N) FPGA(F) Autotuning(A) Arnaud(r)
+#+TAGS: DataVis(v) PaperReview(W)
+#+EXPORT_SELECT_TAGS: Blog
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+COLUMNS: %25ITEM %TODO %3PRIORITY %TAGS
+#+SEQ_TODO: TODO(t!) STARTED(s!) WAITING(w@) APPT(a!) | DONE(d!) CANCELLED(c!) DEFERRED(f!)
+
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
+#+LATEX_HEADER: \usepackage{sourcecodepro}
+#+LATEX_HEADER: \usepackage{booktabs}
+#+LATEX_HEADER: \usepackage{array}
+#+LATEX_HEADER: \usepackage{colortbl}
+#+LATEX_HEADER: \usepackage{listings}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage[english]{babel}
+#+LATEX_HEADER: \usepackage[scale=2]{ccicons}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \usepackage{relsize}
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{bm}
+#+LATEX_HEADER: \usepackage{amsffontonts}
+#+LATEX_HEADER: \usepackage{bm}
+#+LATEX_HEADER: \usepackage{wasysym}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage{ragged2e}
+#+LATEX_HEADER: \usepackage{textcomp}
+#+LATEX_HEADER: \usepackage{pgfplots}
+#+LATEX_HEADER: \usepackage{todonotes}
+#+LATEX_HEADER: \lstdefinelanguage{Julia}%
+#+LATEX_HEADER:   {morekeywords={abstract,struct,break,case,catch,const,continue,do,else,elseif,%
+#+LATEX_HEADER:       end,export,false,for,function,immutable,mutable,using,import,importall,if,in,%
+#+LATEX_HEADER:       macro,module,quote,return,switch,true,try,catch,type,typealias,%
+#+LATEX_HEADER:       while,<:,+,-,::,/},%
+#+LATEX_HEADER:    sensitive=true,%
+#+LATEX_HEADER:    alsoother={$},%
+#+LATEX_HEADER:    morecomment=[l]\#,%
+#+LATEX_HEADER:    morecomment=[n]{\#=}{=\#},%
+#+LATEX_HEADER:    morestring=[s]{"}{"},%
+#+LATEX_HEADER:    morestring=[m]{'}{'},%
+#+LATEX_HEADER: }[keywords,comments,strings]%
+#+LATEX_HEADER: \lstset{ %
+#+LATEX_HEADER:   backgroundcolor={},
+#+LATEX_HEADER:   basicstyle=\ttfamily\scriptsize,
+#+LATEX_HEADER:   breakatwhitespace=true,
+#+LATEX_HEADER:   breaklines=true,
+#+LATEX_HEADER:   captionpos=n,
+# #+LATEX_HEADER:   escapeinside={\%*}{*)},
+#+LATEX_HEADER:   extendedchars=true,
+#+LATEX_HEADER:   frame=n,
+#+LATEX_HEADER:   language=R,
+#+LATEX_HEADER:   rulecolor=\color{black},
+#+LATEX_HEADER:   showspaces=false,
+#+LATEX_HEADER:   showstringspaces=false,
+#+LATEX_HEADER:   showtabs=false,
+#+LATEX_HEADER:   stepnumber=2,
+#+LATEX_HEADER:   stringstyle=\color{gray},
+#+LATEX_HEADER:   tabsize=2,
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \renewcommand*{\UrlFont}{\ttfamily\smaller\relax}
+
+A palestrante Fernanda Campagnucci trouxe discussões e aspectos muito
+interessantes no que tange o conceito de Governo Aberto. Focando
+principalmente na dualidade entre utilizar e como utilizar tecnologia
+em gestões públicas, em suas palavras: “Tecnologia para quê? E que
+tipo de tecnologia?”. Dessa forma abordou exemplos de uso de
+tecnologia ao redor do Mundo; definiu qual o conceito de Governo
+Aberto e quais são os requisitos para se possuir um governo que assim
+possa ser chamado; trouxe da literatura definições quanto ao tema; e
+por fim, trouxe exemplos atuais de aplicação de todos os conceitos
+apresentados.
+
+Ao redor do Mundo tivemos exemplos marcantes do uso de tecnologia
+durante algumas gestões de governos, como a Primavera Árabe, onde se
+utilizou de redes sociais para a organização de protestos
+revolucionários; e na campanha e gestão do ex presidente dos Estados
+Unidos, Barack Obama, ressaltando um dos problemas que viria a ser
+grave, mas foi resolvido com o apoio da comunidade de desenvolvimento
+de software da época, que permanece ativa até hoje. 
+
+Também foi abordado como a demanda sob o servidor público pode
+ocorrer, e como a tecnologia pode ser utilizada nesses casos e em
+outros de retorno de satisfação quanto à aspectos de confiabilidade no
+Governo, por exemplo.
+
+Então, o conceito de Governo Aberto surge sob três principais pilares:
+participação, transparência e o que podemos traduzir como prestação de
+contas. Sendo o primeiro de forma a possibilitar a ação ou opinião
+direta da população e os outros dois como forma de visualizar e
+acompanhar o que tem sido feito pelos Governos. Mais a fundo tais
+pilares sustentam conceitos como: liberdade de expressão, acesso ao
+dados que por sua vez passam a ser idealmente abertos, facilidade de
+comunicação, fiscalização, confiabilidade, privacidade e entre
+outros. Nesse contexto, Fernanda ressalta que tem trabalhado nesse
+conceito enfatizando o quanto a tecnologia hoje em dia é essencial e
+norteia todos os outros. Assim, ela introduziu um quarto pilar, o de
+Tecnologia, que agrega com ferramentas e serviços digitais, código
+aberto no desenvolvimento de tais ferramentas e serviços, e soluções
+inovadoras e colaborativas.
+
+Para mostrar como tais pilares estão presentes no que hoje temos como
+Governo Aberto, e a importância do último nesse meio, fomos
+apresentados à projetos como Decidim, que oferece diversas ferramentas
+participativas; Public Money Public Code, uma iniciativa de retornar o
+dinheiro investido à administração pública em código aberto; projetos
+no GitHub expressando mais de 720 repositórios em mais de 60 países. E
+seguindo essas tendências, o Pátio Digital, uma iniciativa do Governo
+do Estado de São Paulo como ferramenta digital focada na educação,
+oferecendo serviços como o Prato Aberto, uma forma de consultar o
+cardápio das escolas da Rede Municipal de Ensino; Fila da Creche,
+disponibilizando a consulta do status da fila de espera em creches do
+Município; e o  projeto Recurso Público Retorna ao Público,
+fundamentado no desenvolvimento de código aberto, inspirado no projeto
+Public Money Public Code.
+
+Tais projetos mostram que é possível se fazer um Governo Aberto, mas
+como Fernanda enfatizou e discutiu ao longo da sua palestra, são
+coisas que levam tempo para serem aplicadas, tanto em aspectos de
+desenvolvimento de tecnologia, como de treinamento de funcionários
+para usarem os novos recursos. E principalmente, não basta só utiliza
+recursos tecnológicos, temos que ter em mente: que tipo de tecnologia?
+E tecnologia para quê?
+
+
