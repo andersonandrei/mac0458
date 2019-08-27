@@ -67,82 +67,76 @@
 #+LATEX_HEADER: \renewcommand*{\UrlFont}{\ttfamily\smaller\relax}
 
 A palestrante Danielle Bello abordou o tema Transformação Digital em
-Governos ilustrando todo o cenário e o contexto no qual podemos
-discutir tais conceitos. A forma como a sociedade se reorganiza de
-tempos em tempos e a necessidade e crescimento da dimensão dos
-problemas enfrentados pelo governo, tem gerado crise das instituições
-e maior demanda e pressão social. Tudo isso tem se direcionado à
-soluções baseadas no uso de tecnologia.
+Governos ilustrando todo o cenário no qual podemos discutir tais
+conceitos. Em resumo, é um contexto onde a forma como a sociedade se
+reorganiza de tempos em tempos e a necessidade e crescimento da
+dimensão dos problemas enfrentados pelo governo, tem gerado crise nas instituições,
+maior demanda e pressão social. Como discutido na palestra anterior,
+tudo isso tem gerado a discussão e a evoluçao do conceito de Governo
+Aberto, e aqui também, a forma encontrada de solucionar tais problemas
+é através de tecnologia e inovação.
 
-Como discutido na palestra anterior, tudo isso tem gerado a discussão
-e a evoluçao do conceito de Governo Aberto. E mais uma vez, a forma de
-juntas e evoluir todos esses conceitos é através de tecnologia e
-inovação.
-
-Assim como a transformação de um governo para que esse possa ser
-"Aberto" não é automática, mas sim gradual, Danielle nos mostrou que o
+Assim como a transformação de um governo se tornar "Aberto" não é automática, mas sim gradual, Danielle nos mostrou que o
 processo de transformação digital também possui suas etapas. A
 primeira delas é marcada pela mudança de Governo Analógico para
 Eletrônico, onde os processos passam a ser eletrônicos, ou seja,
 executados através de TICs, mas sem mudar os procedimentos ou
-dinâmicas, e principalmente, sem interconexão ou acesso amplo entre
-processos. A segunda etapa parte de um Governo Eletrônico para
+dinâmicas, e principalmente, sem interconexão ou acesso amplo dos
+dados. A segunda etapa parte de um Governo Eletrônico para
 Digital, onde então os processos entre diferentes secretarias começam
 a se comunicar, o acesso passa a ser mais transparente e claro, e a
-abordagem e estrutura passa a ser focada no usuário.
+abordagem e estrutura passam a ser focadas no usuário.
 
 Um Governo Digital se baseia em 6 pilares, de forma a ser 1) conduzido
 pelo usuário; 2) proativo; 3) orientado por dados; 4) concebido como
 digital; 5) aberto por padrão; 6) um governo como plataforma. Assim, traz mais
 liberdade para o usuário, aceitando opiniões, sugestões e se torna de fácil
 acesso. Ao ser pensado de uma nova forma, é estruturado e desenvolvido
-desde o início de forma a beneficiar sua integração e desenvolvimento,
+desde o início de beneficiando sua integração e desenvolvimento, pois é
 estruturado desde o início para sustentar esses 6 pilares. Também
 possui o conceito de código aberto, sendo passível de verificações de
 qualquer um que se dispunha e também acessível à modificações e
-melhorias por qualquer outro interessa que queira se basear, melhorar
-ou integrar outros sistemas.
+melhorias por quem queira se basear, melhorar ou integrar outros sistemas.
 
 Danielle nos mostrou que podemos falar de Transformação Digital no
-Brasil desde dos anos 2000, onde já se começou a trabalhar e pensar em
+Brasil desde o ano 2000, onde já se começou a trabalhar e pensar em
 ações que tendence à essa direção. E o que torna oficial esse
-planejamento e prática é a criação do que é chamado de "Estratégias"
-que definem os requesitos, objetivos, prioridades e formas de
-acompanhar o desenvolvimentos de políticas que causem tais
-transformações, como a  Estratégia de Transformação Digital, a
+planejamento e prática é a criação do que são chamadas de
+"Estratégias". Elas definem os requesitos, objetivos, prioridades e formas de
+acompanhar o desenvolvimento de políticas que causem tais
+transformações. Como por exemplo, a  Estratégia de Transformação Digital, a
 Estratégia de Governança Digital 2016-2019 e a Estratégia Brasileira
 para a Transformação Digital (e-digital).
 
-Então, nos foi mostrado em detalhes O Pátio Digital, uma política de
+Então, nos foi mostrado em detalhes o Pátio Digital, uma política de
 Governo Aberto da Secretaria Municipal de Educação de São Paulo, que
 se baseia em transparência, invoação e colaboração. Danielle nos
 mostrou as principais entregas e ações através dessa plataforma, como
-o Prato Aberto, Código Aberto - Recurso Público Retorna ao Público,
-Dados Abertos, Fila da Creche. Onde, todos são políticas que visam
+o Prato Aberto; Código Aberto - Recurso Público Retorna ao Público;
+Dados Abertos e Fila da Creche. Onde, todos os projetos são políticas que visam
 transparecer melhor a informação aos usuários. Mas, como ainda não
-interagem entre si, entre secretarias ou são efetuados desde o início
+interagem entre si nem entre secretarias e como não são efetuados desde o início
 de forma digital e integrada, ainda não são práticas de Governos
-Digitais. E Danielle então ilustrou que o aplicativo do Prato Aberto,
-que disponbiliza a informação das refeições diáias das escoslas do
-Município de São Paulo, só agiliza e centraliza tais informações para
-os usuários, e não para os servidores público, que por sua vez, tem
-tais informações todas dispersas entre diversos arquivos e locais.
+Digitais. E o aplicativo Prato Aberto é um exemplo disso, uma aplicação
+que disponbiliza a informação das refeições diárias das escolas do
+Município de São Paulo,mas só agiliza e centraliza tais informações para
+os usuários, e não para os servidores públicos, que por sua vez, possuem
+tais informações dispersas entre diversos arquivos e locais.
 
 Mas, ainda assim, o Pátio Digital faz parte da Estratégia de
 Transformação Digital e Governo Aberto da Secretaria Municipal de
-Educação de São Paulo, então é um projeto com políticas que almejam
-uma transformação para um Governo Digital, e dessa forma, possuem princípios e
-diretrizes como 1) Métodos ágeis; 2) Foco no usuário; 3) Priorização e
+Educação de São Paulo. Então, é um projeto com políticas que almejam
+uma transformação digital para o governo, e dessa forma, possuem como princípios e
+diretrizes: 1) Métodos ágeis; 2) Foco no usuário; 3) Priorização e
 entregas rápidas; 4) Transparência e Privacidade; 5) Ética e
 integridade; 6) Open source; que são baseadas nos 6 pilares
 apresentados acima.
 
-Por fim, ainda sobre Transformação Digital na Educação, Danielle
-aponta que tal processo passa por etapas, em ordem de prioridade,
-como Correção, Evolução e Desenvolvimento, traçando então uma
+Danielle aponta que tal processo passa por etapas, em ordem de prioridade:
+correção, evolução e desenvolvimento. Traçando então uma
 trajetória que corrija os erros dos sistemas existentes e permita que
-os serviços funcionem, os evolua de forma a implementar novas funcionalidades e
-então alcance o desenvolvimento de novos, abordando e solucionando
+os serviços funcionem; que evoluam de forma a implementar novas funcionalidades; e
+alcancem o desenvolvimento de novos sistemas, abordando e solucionando
 novos problemas. E em meio à tudo isso, existem problemas como
 transições incompletas entre correções ou integrações; barreiras
 digitais, como sistemas desatualizados, abandonados ou
@@ -150,11 +144,11 @@ impossibilitados de receberem correçoes; e a proteção e privacidade de
 dados pessoais, já que agora pensamos em dados abertos e de fácil
 acesso.
 
-Ainda, em oportunidade de conversar com a palestrante, pude questionar
+Por fim, com oportunidade de conversar com a palestrante, pude questionar
 até onde um governo se diz Aberto, como se torna Digital, se existe
-essa distinção e se ocorre realmente nessa ordem. O que então ficou
-claro que essa transição existe e pode ser pensada entre a mesma de um
-Governo Eletrônico para o Digital, pois um governo pode ser Aberto por
+essa distinção e se ocorre realmente nessa ordem. E então foi
+esclarecido que essa transição existe e pode ser pensada como a
+transição de um Governo Eletrônico para o Digital, pois um governo pode ser Aberto por
 possuir políticas e soluções baseadas em tecnologia e transparência,
 por exemplo, mas não chega a ser Digital por não ter essas soluções
 integradas. Concluindo, um governo Aberto pode não ser Digital, mas um
