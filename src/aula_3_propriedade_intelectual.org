@@ -66,51 +66,49 @@
 #+LATEX_HEADER: }
 #+LATEX_HEADER: \renewcommand*{\UrlFont}{\ttfamily\smaller\relax}
 
-Eduardo Ariente
+Garantindo o direito de exclusividade temporária sobre a exploração econômica de uma determinada 
+criação de natureza técnica, a propriedade intelectual impacta no desenvolvimento científico, 
+tecnológico e industrial, assim como nos direitos sociais, saúde, educação e cultura.
+Assim, o palestrante Eduardo Ariente abordou inicialmente o que pode ser entendido quando ouvimos sobre
+propriedade intelectual. Mas, ao longo de sua palestra, após definir alguns aspéctos, seus grupos e subgrupos,
+nos mostrou que nem sempre se é obtido esse resultado através da utilização de propriedade intelectual, e que 
+em alguns casos, a mesma pode ser utilizada para fins de competitividade e práticas desleais de concorrência de mercado.
 
-Propriedade Intelectual e Inovação
-É um genero e possui diferentes sub-divisões: 
-- natureza técnica (patentes de software)
-- 
+Para saber onde aplicarmos esse conceito especificamente, fomos 
+apresentados a suas formas de classificação: criações ou sinais distintivos, onde, o primeiro engloba patentes, direitos autorais,
+softwates e desenhos industriais; e o segundo se aplica à marcas.
 
-Classificação:
-- Criações : patentes, direitos autorais (DA), software e desenhos industriais (LPI)
-- Sinais Distintivos: Marcas
+No âmbito de garantir que o uso de propriedade intelectual garanta o impacto nas áreas mencionadas no primeiro parágrafo,
+existe a Lei de Criação de Propriedade Industrial abrangendo problemas técnicos: desenhos industriais e patentes, 
+que por sua vez abrange invenções e modelos de utilidades. E a Lei de Direitos Autorais, que abrange problemas não 
+técnicos: obras literárias, músicas, ilustrações, desenhos, e de forma confusa, bases de dados e softwares.
 
-Leis:
-Propriedade industial
-- Patentes
-  - 
-- Desenhos industriais
-Software
+Eduardo deixou claro que não se fala de propriedade intelectual sem se falar de inovação, pois o mesmo se aplica apenas
+à novas ideias, produtos e afins. E nesse ponto, abordou diferentes autores, referências na área e empresas que são favoráveis 
+a utilização de propriedade intelectual no âmbito de proteção e estimulo de inovação. Os autores que eram contra, de acordo com ele, 
+enxergavam a utilização de propriedade intelectual por grandes empresas como meio de encurralar pequenas empresas para não utilizarem ou produzirem
+produtos similares aos delas, por terem patentado primeiro, por exemplo. E por serem empresas de pequeno porte, as afetadas,são 
+obrigadas a fechar ou se vender para outras maiores. Da mesma forma, empresas de grande porte utilizam da mesma estratégia para 
+atrasar e atrapalhar outras concorrentes de grande porte, fazendo com que a produção de certos produtos seja pausada até que se resolvam
+processos nesse âmbito.
+Já os críticos intermediarios, balanceiam esses dois fatores, o uso desleal por parte de empresas de grande porte, mas também enxergam que,
+quando bem utilizada, a propriedade intelectual cumpre o seu papel. Por fim, aqueles que defendem totalmente o seu uso, se baseiam nesse
+principal argumento e acreditam que seja a única forma de incentivar a inovação.
 
+Também nos foi apresentada a discussão de que, sendo utilizada a propriedade intelectual, quem realmente lucra com os direitos de venda,
+reprodutividade e proteção à produção desses produtos são as grandes empresas produtoras ou fabricantes, e não os autores das ideias. 
+Por exemplo, o caso do criador da personagem e histórias em quadrinhos Mafalda, que afirma não ter enrriquecido com sua criação, apesar de mundialmente famosa,
+ao contrário da editora à qual a produziu. Outro exemplo são os streamings de músicas, que em pesquisas e cálculos reais, mostram o lucro de $17 para um compositor 
+a partir de 3 milhões de streamings de uma mesma música.
 
-Direito autoral -> Problemas não técnicos
- - Exceção: Bases de dados e programas de computadores (INPI Instituto nacional de prop. intelect.)
-Patentes -> Problemas técnicos
+E então, como solução para esse tipo de problema e enrriquecimento apenas por parte das empresas podutoras ou fabricantes, e a visão de que 
+a única saída para incentivar a inovação, Eduardo nos mostrou que existem alternativas como:
+estímulos fiscais, premios estatais, exclusividade articial (propriedade intelectual), segredo industrial, trabalho profissional, competição e 
+diferenciação de produtos reputação, cooperalção e altruísmo.
 
-Inovação
-- Não se fala de prop. intelectual sem inovação
-- Prop. Intelectual é uma ferramenta para trazer inovações à pratica
-
-Favoráveis, intermediários e contrários à PI
-
-
-Patentes sempre protegem?
-
-- Autor Mafalda
-- Streaming de músicas
-  - 3 Milhões de strammings no Spotify -> $17 
-
-Estímulos à inovação
-- Fiscais
-- Premios estatais
-- Exclusividade articial (PI)
-- Segredo Industrial
-- Trabalho profissional
-- Competição e diferenciação de produtos
-- Reputação, cooperalção, altruísmo
-
-Patentes dentro de conflitos empresariais
-
-PI: Vantagens e desvantagens
+Ou seja, propriedade intelectual é um meio que quando bem utilizado, impacta diretamente em vários âmbitos sociais e incentiva a inovação. Mas,
+por conta da dificuldade de se patentear algo e principalemente pelo seu uso mal intesionado, esse pode ser um meio de dificultar 
+ainda mais seu principal objetivo. Então, devemos analisar com calma os diferentes prós e contras
+em volta de propriedade intelectual para avaliar se é sempre benéfico para os autores e criadores das ideias, logo, analisar se todos 
+os áspectos que compoem a proriedade intelectual devem ser mantidos da forma em que estão e que tem sido utilizados. 
+E devemos também ter em mente de que esse não é o único meio de se estimular inovação.
