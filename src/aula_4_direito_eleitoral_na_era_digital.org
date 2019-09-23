@@ -1,0 +1,108 @@
+#+STARTUP: overview indent inlineimages logdrawer
+#+TITLE: MAC0458 - Direito e Software \linebreak \newline Direito Eleitoral na Era Digital
+#+AUTHOR: Anderson Andrei da Silva
+#+LANGUAGE:    bt-br
+#+TAGS: noexport(n) Stats(S)
+#+TAGS: Teaching(T) R(R) OrgMode(O) Python(P)
+#+TAGS: Book(b) DOE(D) Code(C) NODAL(N) FPGA(F) Autotuning(A) Arnaud(r)
+#+TAGS: DataVis(v) PaperReview(W)
+#+EXPORT_SELECT_TAGS: Blog
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+COLUMNS: %25ITEM %TODO %3PRIORITY %TAGS
+#+SEQ_TODO: TODO(t!) STARTED(s!) WAITING(w@) APPT(a!) | DONE(d!) CANCELLED(c!) DEFERRED(f!)
+
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
+#+LATEX_HEADER: \usepackage{sourcecodepro}
+#+LATEX_HEADER: \usepackage{booktabs}
+#+LATEX_HEADER: \usepackage{array}
+#+LATEX_HEADER: \usepackage{colortbl}
+#+LATEX_HEADER: \usepackage{listings}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage[english]{babel}
+#+LATEX_HEADER: \usepackage[scale=2]{ccicons}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \usepackage{relsize}
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{bm}
+#+LATEX_HEADER: \usepackage{wasysym}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage{ragged2e}
+#+LATEX_HEADER: \usepackage{textcomp}
+#+LATEX_HEADER: \usepackage{pgfplots}
+#+LATEX_HEADER: \usepackage{todonotes}
+#+LATEX_HEADER: \lstdefinelanguage{Julia}%
+#+LATEX_HEADER:   {morekeywords={abstract,struct,break,case,catch,const,continue,do,else,elseif,%
+#+LATEX_HEADER:       end,export,false,for,function,immutable,mutable,using,import,importall,if,in,%
+#+LATEX_HEADER:       macro,module,quote,return,switch,true,try,catch,type,typealias,%
+#+LATEX_HEADER:       while,<:,+,-,::,/},%
+#+LATEX_HEADER:    sensitive=true,%
+#+LATEX_HEADER:    alsoother={$},%
+#+LATEX_HEADER:    morecomment=[l]\#,%
+#+LATEX_HEADER:    morecomment=[n]{\#=}{=\#},%
+#+LATEX_HEADER:    morestring=[s]{"}{"},%
+#+LATEX_HEADER:    morestring=[m]{'}{'},%
+#+LATEX_HEADER: }[keywords,comments,strings]%
+#+LATEX_HEADER: \lstset{ %
+#+LATEX_HEADER:   backgroundcolor={},
+#+LATEX_HEADER:   basicstyle=\ttfamily\scriptsize,
+#+LATEX_HEADER:   breakatwhitespace=true,
+#+LATEX_HEADER:   breaklines=true,
+#+LATEX_HEADER:   captionpos=n,
+# #+LATEX_HEADER:   escapeinside={\%*}{*)},
+#+LATEX_HEADER:   extendedchars=true,
+#+LATEX_HEADER:   frame=n,
+#+LATEX_HEADER:   language=R,
+#+LATEX_HEADER:   rulecolor=\color{black},
+#+LATEX_HEADER:   showspaces=false,
+#+LATEX_HEADER:   showstringspaces=false,
+#+LATEX_HEADER:   showtabs=false,
+#+LATEX_HEADER:   stepnumber=2,
+#+LATEX_HEADER:   stringstyle=\color{gray},
+#+LATEX_HEADER:   tabsize=2,
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \renewcommand*{\UrlFont}{\ttfamily\smaller\relax}
+
+O palestrante Francisco Brito Cruz nos apresentou o tema de forma a abordar todo o contexto histórico em torno do 
+direito eleitoral e da condição socioeconômica do país. Ele os relacionou e então nos levou a acompanhar como se da 
+o processo eleitoral hoje, em meio à uma era digital, e o dilemas envoltos ao tema.
+
+Pela evolução das mídias digitais, temos que mídias como rádio e televisão já eram utilizadas, por exemplo, durante a ditadura, 
+mas com conteúdo controlado. Daí, o salto se deu quando no fim da ditadura, a televisão era um meio de comunicação presente na casa de 
+quase todos os brasileiros, e assim, no pós ditadura e início de democracia, a comunicação e disseminação de informação passou a ser muito mais 
+fácil, rápida e a nível nacional. Assim, a televisão se tornou o meio de comunicação mais importante nesse contexto.
+
+Mas, por ser um meio de comunicação de uma única via, ainda se tinha o controle do que e como passar tais informações. O que, em termos de
+camapanha eleitoral, era possível fiscalizar se as camapanhas e propagandas eleitorais respeitavam e cumpriam as leis de campanha eleitoral,
+como por exemplo duração igual de propaganda para todos os candidatos.
+
+E então, Francisco nos mostrou que de forma similar, o que temos hoje assimilado como uma era digital, é fruto de um processo de democratização
+da informação, acesso à internet e tecnologia também a nível nacional. Ele nos mostra que ao fim do governo Lula, e mais no governo Dilma,
+a presença de smartphones nas casas dos brasileiros alcança a maior porcentagem da história, não ultrapassando a presença da televisão, mas
+sendo muito expressivo, principalmente considerando o poder de comunicação que isso acarreta.
+
+Agora, com mais acesso à internet e  a esses meios de comunicação via redes sociais, a comunicação e difusão de informação cresceu mais ainda,
+e mais importante do que isso, o canal de comunicação se tornou duplo e passível de ser utilizado por qualquer um em qualquer uma das duas pontas.
+Ou seja, agora qualquer um pode se tornar um "produtor" de informação, em suas redes sociais, por exemplo, e essa estrutura permite a resposta 
+direta de todos os que são alcançado por essa informação, gerando assim um diálogo direto. Se antes a televisão trazia informações "selecionadas"
+de fontes "selecionadas", agora, a internet, as redes sociais e os novos dispositivos técnologicos pessoais como computadores e celulares, permitem
+que qualquer usuário da rede publique sua opnião, ou divulgue o que achar cabível. E mais além, toda essa informação é passível de compartilhamento.
+
+Então, em tempos e eleições atuais, não é possível que o direito eleitoral, com leis como a de propaganda eleitoral, fiscalize como as informações 
+estão sendo difundidas. Não é possível verificar se existe um balanceamento de tempo de "propaganda" de cada candidato, e nem é possível aplicar
+punições aos próprios candidatos se for verificado alguma informação incabida que o beneficie em camapanha, mas que foi difundida por rede social
+e não partiu dele mesmo.
+
+Assim, entramos no assunto das Fake News, que são as notícias falsas, que se tornaram assunto em alta desde a última eleição. Francisco nos mostrou
+que não se sabe ainda ao certo como julgar e penalizar uma chamada Fake News. De acordo com ele, isso não é por definição um notícia falsa,
+mas sim uma notícia não fundadmentada em termos jornalísticos. Ou seja, pode ser uma "notícia" produzida por alguém que não um profissional de 
+jornalismo, e assim, não possui fontes ou fatos apurados. Logo, ainda não se sabe ao certo como lidar com tal tipo de informação, ou desinformação.
+
+Nesse contexto, o direito eleitoral lida com a presença de informações desse tipo, Fake News, e mídias digitais que permitem o compartilhamento de 
+informação de forma tão rápida e abrangente. E então, o mesmo não sabe ainda como tratar essa união de fatores e ações em meio à uma campanha 
+eleitoral. Assim sendo, o direito eleitoral precisa encontrar formas de se readaquar a esse novo contexto, mas que não foi gerado 
+propositalmente por fatores eleitorais, mas sim, fazem parte de um processo histórico de desenvolvimento de acesso à informação, 
+internet e tecnologia.
