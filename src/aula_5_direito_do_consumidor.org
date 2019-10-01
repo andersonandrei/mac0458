@@ -66,11 +66,74 @@
 #+LATEX_HEADER: }
 #+LATEX_HEADER: \renewcommand*{\UrlFont}{\ttfamily\smaller\relax}
 
-A palestrante Barbara Simão nos apresentou o Idec e sua área de atuação sob a missão de "Promover 
-a educação, a conscientização, a defesa dos direitos do consumidor e a ética nas relações de consumo,
-com total independência política e econômica.". Em seguida, falou sobre os motivos da existência dos 
-direitos do consumidor; a evolução e o percurso das leis que temos hoje; e por fim, como dados pessoais 
-são tratados dentro desse contexto e exemplificou alguns casos reais, onde o Idec interveio.
+A palestrante Barbara Simão nos apresentou o Idec, o Instituto Brasileiro de Defesa do Consumidor,que atua sob a missão 
+de "Promover a educação, a conscientização, a defesa dos direitos do consumidor e a ética nas relações de consumo,
+com total independência política e econômica.". Ela nos falou sobre os motivos e a necessidade da existência dos 
+direitos do consumidor; a evolução e o percurso das leis que temos hoje; e por fim, como dados pessoais tem sido 
+tratados dentro desse contexto e exemplificou alguns casos reais, onde o Idec interveio.
+
+Em uma breve linha temporal, ela nos apresentou que em 1891, Josephine Lowel iniciou a "New York Consumers League", atual 
+"Consumers Union", que foi um marco para o início ao movimento consumerista. Esse, se fundamenta com base no consumo responsável, 
+ético e solidário, segundo critérios apropriados e racionais que levem em conta a origem dos produtos adquiridos e os 
+impactos ambientais e sociais desse consumo. Ou seja, a partir de então passou a se pensar nos impactos do consumo, e também
+na origem e qualidade dos produtos.
+
+Mais tarde, no século XX, o movimento de defesa do consumidor, já sendo tratado com essa denominação, ganhou força nos Estados 
+Unidos com o crescimento do capitalismo. Em 1906, foi elaborada a Regulamentação Para Inspeção de Carne e a Lei de Alimentos e Medicamentos;
+Em 1914 a Federal Trade Comission e em 1927, a FDA (Food and Drugs Administration), que passou em 1938 a abranger segmento de cosméticos. 
+
+Já, o grande marco mundial para os consumidores ocorreu em na década de 1960, onde: 1) foi criada a IOCU – International Organization 
+of Consumers Unions, atualmente denominada de CI – Consumers International e onde o Brasil atualmente tem participação por meio 
+da Fundação Procon e do Idec. 2) Em 15 de março de 1962, o presidente dos Estados Unidos, John F. Kennedy, 
+reconheceu perante o Congresso Nacional Americano, os direitos dos consumidores: segurança, informação, escolha e ser ouvido. 
+Assim, em sua homenagem o Dia Mundial dos Direitos do Consumidor passou a ser comemorado nessa data. E em 1970, também nos Estados Unidos, foi criado a Fair Credit Reporting Act, que foi a primeira lei federal que dizia como deveria ocorrer
+a coleta e divulgação dos dados de informações de crédito dos consumidores.
+
+No Brasil, seguindo esse fluxo histórico, mas principalemente baseado na Fair Credit Reporting Act, o Código de Defesa do Consumidor foi 
+estabelecido em 1990 para garantir: Proteção da vida, saúde e segurança; Educação e divulgação sobre o consumo adequado; 
+Informação adequada e clara; Proteção contra publicidade enganosa e abusiva; Prevenção e reparação de danos; Acesso aos órgãos judiciários
+e administrativos; Facilitação da defesa dos direitos (inversão do ônus da prova); Modificação de cláusulas contratuais desproporcionais.
+
+Posteriormente em 2011 foi criada a Lei de Cadastro Positivo, que cria uma pontuação em cima dos dados de crédito dos consumidores, dentro de
+uma base de dados existente. Essa pontuação passa a ser utilizada pelas as empresas de crédito, ou de vendas que efetuam processos de aprovação
+do cadastro dos usuários. Porém, o que não fica claro são as métricas utilizadas para a formação dessa pontuação. Mas, ainda assim, essa lei
+garante que a abertura de cadastro, ficha, registro e dados pessoais e de consumo deverá ser comunicada por escrito ao consumidor, 
+quando não solicitada por ele, e permite que o usuário solicite a exclusão ou atualização de bases de dados como a do Procon.
+
+Mas, esse ano, em 2019, a Lei de Cadastro Positivo foi reformulada, retirando a necessidade de comunicação aos consumidores, e efetuando o
+cálculo dessa pontuação para todos os consumidores em tais tipos de base de dados. Mesmo com a ainda existente possibilidade de solicitação
+por parte do consumidor para não utilização ou exclusão dessa pontuação, agora, pela não obrigatoriedade da comunicação, é esperado que a maioria
+dos consumidores não saibam da existência dessa métrica e então sejam prejudicados. Barbara nos exemplificou um caso recente de que uma simples
+conta de celular foi negada à um jovem de 18 anos, por conta dessa utilização. Outras perguntas que continuam em aberto permeiam o método de cálculo
+de tal pontuação, e se agora, em uma era informatizada utilizará dados pessoais como navegações de celulares ou preferências em redes sociais.
+E seguindo tal tendência, e dentro do exemplo da conta de telefonia negada, essa pontuação passará a ser utilizada para relações de consumo 
+em geral?
+
+Por fim, Bárbara nos trouxe de alguns exemplos de infrações dos direitos dos consumidores no que diz respeito à coleta de dados de preferência 
+de consumo e o direcionamento dessas informações para propagandas. O primeiro deles está dentro de Telemarketing e Robocalls, 
+onde informações como dados pessoais e formas de contato com os consumidores são utilizadas por
+diversas empresas de telemarketing, que geram até mesmo ligações automáticas para o oferecimento de serviços, que também, de acordo com essas
+bases de dados, são da preferência daquele consumidor em específico.
+
+O Segundo tratou de publicidade direcionada, onde as tecnologias agora analisam dados de busca, redes sociais e etc, para direcionar 
+o tipo de publicidade que mais se adequa ao perfil dos consumidores. Tal processo passa então por fases como categorização, verificação e 
+identificação dos consumidores alvo.
+
+Por último, dois exemplos de coleta de imagens de vídeo para deteção de emoções dos consumidores. O primeiro na ViaQuatro, que instalou telões
+com câmeras que filmavam todos os usuários de suas estações de metrô. O que ocorria obrigatóriamente com todos os usuário, pois tais equipamentos
+estavam presentes em quase toda a estação, no percurso da catraca até a porta dos metrôs. O segundo caso ocorre nas lojas Hering, onde câmeras 
+também coletam os rostos dos clientes para avaliar suas emoções dentro das lojas. Nenhum dos dois casos notificaram aos seus usuários e clientes
+de tais práticas e assim, a grande maioria não tinha conhecimento quanto à isso. O que caracteriza uma grande infração no CDC. E considerando 
+o primeiro caso, de uma linha de metrô, o número de usuários e portanto dados coletados eram imensos. No caso da ViaQuatro, o Idec entrou com 
+uma liminar para que fossem cobertas essas câmeras e que tal prática fosse devidamente justificada e notificada aos usuários. 
+Mas, o processo ainda está em andamento, e enquanto nenhuma decisão é tomada a ViaQuatro teve que cobrir todas as câmeras e desligar os equipamentos. 
+Já, quanto à Hering, Bárbara comentou que o mesmo procedimento tem sido estudado pelo Idec, quanto a forma de abordagem.
+
+Esses casos nos mostram que em meio à uma era digital tais tecnologias infringem o CDC, de forma quase impossível de se contornar, no que diz 
+respeito à proteção do consumidor. O problema principal é que medidas legais, hoje, são muito difíceis de serem formuladas e tomadas, pois nem 
+todas ações infratoras desses tipos se enquadram diretamente no Código de Defesa do Consumidor, e novas leis ainda tem sido estudadas e não estão em completo vigor. 
+Assim, ações contra os casos da ViaQuatro e da Hering não são tão fáceis e claros de se formular, no sentido de justificar a invasão de privacidade 
+e não proteção do consumidor.
 
 
 
