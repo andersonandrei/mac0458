@@ -1,0 +1,114 @@
+#+STARTUP: overview indent inlineimages logdrawer
+#+TITLE: MAC0458 - Direito e Software \linebreak \newline Proteção de Dados na Administração Pública
+#+AUTHOR: Anderson Andrei da Silva
+#+LANGUAGE:    bt-br
+#+TAGS: noexport(n) Stats(S)
+#+TAGS: Teaching(T) R(R) OrgMode(O) Python(P)
+#+TAGS: Book(b) DOE(D) Code(C) NODAL(N) FPGA(F) Autotuning(A) Arnaud(r)
+#+TAGS: DataVis(v) PaperReview(W)
+#+EXPORT_SELECT_TAGS: Blog
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+COLUMNS: %25ITEM %TODO %3PRIORITY %TAGS
+#+SEQ_TODO: TODO(t!) STARTED(s!) WAITING(w@) APPT(a!) | DONE(d!) CANCELLED(c!) DEFERRED(f!)
+
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
+#+LATEX_HEADER: \usepackage{sourcecodepro}
+#+LATEX_HEADER: \usepackage{booktabs}
+#+LATEX_HEADER: \usepackage{array}
+#+LATEX_HEADER: \usepackage{colortbl}
+#+LATEX_HEADER: \usepackage{listings}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage[english]{babel}
+#+LATEX_HEADER: \usepackage[scale=2]{ccicons}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \usepackage{relsize}
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{bm}
+#+LATEX_HEADER: \usepackage{wasysym}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage{ragged2e}
+#+LATEX_HEADER: \usepackage{textcomp}
+#+LATEX_HEADER: \usepackage{pgfplots}
+#+LATEX_HEADER: \usepackage{todonotes}
+#+LATEX_HEADER: \lstdefinelanguage{Julia}%
+#+LATEX_HEADER:   {morekeywords={abstract,struct,break,case,catch,const,continue,do,else,elseif,%
+#+LATEX_HEADER:       end,export,false,for,function,immutable,mutable,using,import,importall,if,in,%
+#+LATEX_HEADER:       macro,module,quote,return,switch,true,try,catch,type,typealias,%
+#+LATEX_HEADER:       while,<:,+,-,::,/},%
+#+LATEX_HEADER:    sensitive=true,%
+#+LATEX_HEADER:    alsoother={$},%
+#+LATEX_HEADER:    morecomment=[l]\#,%
+#+LATEX_HEADER:    morecomment=[n]{\#=}{=\#},%
+#+LATEX_HEADER:    morestring=[s]{"}{"},%
+#+LATEX_HEADER:    morestring=[m]{'}{'},%
+#+LATEX_HEADER: }[keywords,comments,strings]%
+#+LATEX_HEADER: \lstset{ %
+#+LATEX_HEADER:   backgroundcolor={},
+#+LATEX_HEADER:   basicstyle=\ttfamily\scriptsize,
+#+LATEX_HEADER:   breakatwhitespace=true,
+#+LATEX_HEADER:   breaklines=true,
+#+LATEX_HEADER:   captionpos=n,
+# #+LATEX_HEADER:   escapeinside={\%*}{*)},
+#+LATEX_HEADER:   extendedchars=true,
+#+LATEX_HEADER:   frame=n,
+#+LATEX_HEADER:   language=R,
+#+LATEX_HEADER:   rulecolor=\color{black},
+#+LATEX_HEADER:   showspaces=false,
+#+LATEX_HEADER:   showstringspaces=false,
+#+LATEX_HEADER:   showtabs=false,
+#+LATEX_HEADER:   stepnumber=2,
+#+LATEX_HEADER:   stringstyle=\color{gray},
+#+LATEX_HEADER:   tabsize=2,
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \renewcommand*{\UrlFont}{\ttfamily\smaller\relax}
+
+A palestrante Camille Moura ao falar sobre a proteção de dados pessoais na administração pública abordou pontos como
+as justificativas utilizadas em serviços que utilizam tais dados, alguns exemplos de vazamento, 
+problematizou a questão do desenvolvimento de sistemas dentro de setores públicos e também exemplificou alguns casos 
+de terceirização.
+
+Camille iniciou sua palestra mostrando qual a importância de garantir a segurança de dados pessoais, já que, em termos de 
+administração pública, são dados coletados por serviços que se aplicam a todos e que englobam todo tipo de dado. O questionamento
+seria, o setor público pode acessar todos os nossos dados? Se tratando de estado, temos algo à esconder? Camille nos mostrou casos
+em que a não proteção de dados terminou em vazamento. O primeiro foram dados escolares, onde as notas de reuniões de professores 
+continham dados bastante sensíveis em relação aos alunos; o segundo, dados de pacientes da rede pública de saúde; já o terceiro 
+foi um caso de venda de dados pessoais pelo Serpro; e o quarto foi um caso nos Estados Unidos, onde a análise em tempo real dos 
+dados acessados na internet por uma família resultou em um quadro de terrorismo, quando na verdade, os integrantes da família pesquisavam
+por uma panela de pressão, uma mochila e sobre história de atentados terroristas. Tais exemplos nos mostram que esses dados são realmente
+acessados em vários setores de administração pública, e além disso, não são protegidos da forma que deveriam.
+
+Camille nos direcionou ao tratamento desses problemas, por soluções que primeiramente questionem: como tecnologias podem ajudar na gestão pública?
+Como tais tecnologias são desenvolvidas? Pra que servem os dados coletados? E quem usa esses dados?
+Dentro da questão do desenvolvimento, ela nos contou que tais serviços são feitos, geralmente, de forma terceirizada porque o setor público não
+consegue atrair profissionais de técnologia, e portanto, não consegue produzir aquilo que precisa. A partir daí surgem problemas como: 
+permissão de uso dos dados; gestão de contratos; como será feita a coleta e qual a necessidade de todos os dados coletados?
+
+O primeiro problema que surge ao utilizar o setor privado para o desenvolvimento de tais serviços é o custo, já que em geral são
+contratadas grandes empresas. O segundo é, a quantidade de dados coletados e se tal proporção é realmente necessária. Por questões contratuais, as vezes
+as empresas contratadas coletam muito mais dados do que são necessários para a prestação dos seviços requisitados. O terceiro é
+o que acontece quando um contrato se encerra e não é renovado. E além desses, existe o redirecionamento dos dados para fins de publicidades e etc.
+Camille nos mostrou um exemplo onde a base de dados de um sistema foi tomado por um empresa ao encerramento e não renovação do contrato. De forma a não ser
+reaproveitado em nada, em continuidade do serviço com outra empresa, o que dizia respeito ao uma base de dados de 5 a 10 anos de serviço.
+
+Por fim, ela discutiu situações de serviços públicos que em sua estrutura já não se preocupam com a proteção de dados de seus usuários. 
+Como por exemplo o serviço de Wifi em transportes públicos, que requisitam login e dados sensíveis para sua utilização. O que dentro de um certo prazo
+acarreta em propgrandas direcionadas durante seu percurso dentro daquele transporte. Ou seja, tais dados são repassados para empresas de marketing
+que tendo acesso à sua rota, direcionam propaganda de locais e serviços por onde o usuário transitaria dentro daquele horário em específico.
+
+Outro exemplo dentro do oferecimento de Wifi é o projeto Wifi Livre SP, onde foi proposta a extensão do que já tem sido aplicado. Tal proposta 
+oferece a de duplicação o numero de ponto de acessos e da velocidade de navegação, tudo à um custo zero para o governo do Estado de São Paulo.
+Mas, por trás desse custo zero, a empresa que se porpôs à fazer toda a instalação
+e cobrir o oferecimento dobrando a velocidade da rede, solicitava por contrato quase que acesso total à esses dados. Ou seja, livre acesso aos dados
+de grande parte da população de São Paulo.
+
+São tais problemas que permeiam, principalmente, a administração pública em termos de proteção de dados. E tais exemplos nos mostram que o tratamento de dados
+que deveria buscar o interesse público, informar claramente os procedimentos efetuados e indicar o encarregado por tal tratamente, tem na verdade difo feito
+de forma oposta e irresponsável. Que quando visa a redução de gastos na aplicação e desenvolvimento de serviços de técnologia, negligencia a proteção de dados
+pessoais da população.
+
+
+
