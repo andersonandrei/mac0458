@@ -1,0 +1,115 @@
+#+STARTUP: overview indent inlineimages logdrawer
+#+TITLE: MAC0458 - Direito e Software \linebreak \newline Liberdade de Expressão na Internet
+#+AUTHOR: Anderson Andrei da Silva
+#+LANGUAGE:    bt-br
+#+TAGS: noexport(n) Stats(S)
+#+TAGS: Teaching(T) R(R) OrgMode(O) Python(P)
+#+TAGS: Book(b) DOE(D) Code(C) NODAL(N) FPGA(F) Autotuning(A) Arnaud(r)
+#+TAGS: DataVis(v) PaperReview(W)
+#+EXPORT_SELECT_TAGS: Blog
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+COLUMNS: %25ITEM %TODO %3PRIORITY %TAGS
+#+SEQ_TODO: TODO(t!) STARTED(s!) WAITING(w@) APPT(a!) | DONE(d!) CANCELLED(c!) DEFERRED(f!)
+
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
+#+LATEX_HEADER: \usepackage{sourcecodepro}
+#+LATEX_HEADER: \usepackage{booktabs}
+#+LATEX_HEADER: \usepackage{array}
+#+LATEX_HEADER: \usepackage{colortbl}
+#+LATEX_HEADER: \usepackage{listings}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage[english]{babel}
+#+LATEX_HEADER: \usepackage[scale=2]{ccicons}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \usepackage{relsize}
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{bm}
+#+LATEX_HEADER: \usepackage{wasysym}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage{ragged2e}
+#+LATEX_HEADER: \usepackage{textcomp}
+#+LATEX_HEADER: \usepackage{pgfplots}
+#+LATEX_HEADER: \usepackage{todonotes}
+#+LATEX_HEADER: \lstdefinelanguage{Julia}%
+#+LATEX_HEADER:   {morekeywords={abstract,struct,break,case,catch,const,continue,do,else,elseif,%
+#+LATEX_HEADER:       end,export,false,for,function,immutable,mutable,using,import,importall,if,in,%
+#+LATEX_HEADER:       macro,module,quote,return,switch,true,try,catch,type,typealias,%
+#+LATEX_HEADER:       while,<:,+,-,::,/},%
+#+LATEX_HEADER:    sensitive=true,%
+#+LATEX_HEADER:    alsoother={$},%
+#+LATEX_HEADER:    morecomment=[l]\#,%
+#+LATEX_HEADER:    morecomment=[n]{\#=}{=\#},%
+#+LATEX_HEADER:    morestring=[s]{"}{"},%
+#+LATEX_HEADER:    morestring=[m]{'}{'},%
+#+LATEX_HEADER: }[keywords,comments,strings]%
+#+LATEX_HEADER: \lstset{ %
+#+LATEX_HEADER:   backgroundcolor={},
+#+LATEX_HEADER:   basicstyle=\ttfamily\scriptsize,
+#+LATEX_HEADER:   breakatwhitespace=true,
+#+LATEX_HEADER:   breaklines=true,
+#+LATEX_HEADER:   captionpos=n,
+# #+LATEX_HEADER:   escapeinside={\%*}{*)},
+#+LATEX_HEADER:   extendedchars=true,
+#+LATEX_HEADER:   frame=n,
+#+LATEX_HEADER:   language=R,
+#+LATEX_HEADER:   rulecolor=\color{black},
+#+LATEX_HEADER:   showspaces=false,
+#+LATEX_HEADER:   showstringspaces=false,
+#+LATEX_HEADER:   showtabs=false,
+#+LATEX_HEADER:   stepnumber=2,
+#+LATEX_HEADER:   stringstyle=\color{gray},
+#+LATEX_HEADER:   tabsize=2,
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \renewcommand*{\UrlFont}{\ttfamily\smaller\relax}
+
+A palestrante Veridiana Alimonti falou sobre liberdade de expressão na internet, abordando seus fundamentos e desafios.
+Ela iniciou a palestra apresentando o que seria liberdade de expressão e que a patir dela nos beneficiamos em vários aspéctos
+como acesso à informação e tudo no âmbito educacional e cultaral que o permeia, facilidade de comunicação, reunião social,
+formação de associações e grupos que fisicamente estão dispersos, além de muitos outros benefícios. Mas, por outro lado, também trás
+espaço para informações, discursos de ódio, violência e etc.
+
+Veridiana nos explicou sobre a Convenção Americana de Direitos Humanos, que age de forma a não excluir ou censurar nenhuma
+opinião ou expressâo de forma prévia, mesmo que inquietante ou pertubadora, dada a ambiguidade de contextos e os conceitos de política
+da época, que podem fazer com que algo seja inquietante, porém necessários para gerar ou conduzir uma discussão. Mas, o mesmo
+garante que providências e responsabilização tem que ser feitas e tomadas caso tal opnião ou expressão for classificada dentre 
+discursos não protegidos, que são aqueles que incitam a violência como genocídios, exploração sexual, terrorismo e etc.
+
+No contexto da internet, as mesmas regras são seguidas, mas a informação passa por uma estrutura hierárquica, e Veridiana nos mostrou 
+como funciona, que existem camadas e pelo o que cada uma delas é responsável e como se enquadram em um contexto de discussão 
+por penalização ou responsabilização pelo tratamento das informações.
+Dentro desse contexto, as discussões de responsabilidade permeiam questões como quem é mais gabaritado para julgar isso e quando 
+uma plataforma é responsável? Veridiana nos contou que, em geral, a camada conhecida como camada mais frágil é a das plataforma, 
+pois são as responsáveis pela exbição das informações, ou seja, são o acesso direto dos usuários.
+No mesmo contexto, outras camadas como a de rede não podem ser responsáveis por tais questões pois essas tem que ser neutras,
+tratando isonômicamente os dados. Ou seja, elas são responsáveis pelo o envio e recebimento de informações através de pacotes de rede,
+sem a autorização de interpretar e portanto filtrar tais informações.
+
+Outras questões como quando algo deve ser removido? E o que acontece se algo legal é removido? São respostdidas envolvendo ações
+judiciais, pois caso à plataforma não exclua alguma informação por não julgar assim necessário, uma ação judicial explicitará o porque
+deve ser removida, e no segundo caso, defende o porque deve ser mantida, e então recolocada na plataforma.
+Dois casos típicos de conteúdos que são censurados automaticamente e necessitam de reavaliação através de processos judiciais,
+são conteúdos históricos, que representam momentos de tragédias, guerras, nudes e etc, e que foram publicados com viés educacional
+e explicativo. Outo tipo de conteúdo, são os que expoem comentários ou publicações agressivas e ofensivas, com o mesmo viés de 
+discussão e conscientização, mas são removidos por serem interpretadas como produtoras daquelas informações.
+
+Veridiana também nos mostrou um conjunto de informações, como uma pesquisa, chamada /Who has your back?/ que coleta e divulga informações
+de empresas que possuem mecanismos para que o usuário faça solicitações de remoção de conteúdo; para que ele seja notificado caso
+algo dele seja removido, com as devidas justificativas; mecanimos de solicitação de reavaliação de censuras feita, e etc. 
+Tais mecanismos são importantes para decisões de censura possam ser reavaliadas, justificadas ou descritas com pedidos não só judiciais.
+E outro conjunto de conceitos, também muito importante, são os Princípios de Santa Clara, que tratam de moderação de conteúdo.
+
+Já no contexto de Fake News, as discussões que permeiam são como condicionar a publicação de uma informação com sua veracidade?
+Quem deve comprovar as informações como verdadeiras? Informações não comprovadas devem ser censuradas? 
+E em geral, a resposta utilizada tem se baseado no conceito apresentado no início do texto, que dentro da liberdade de expressão,
+o que se garante é a publicação de toda e qualquer informação que não se enquadre como não protegida, e posteriormente, se necessário, 
+quem à publicou deve ser responsabilizado pela consequências.
+
+Por fim, Veridiana nos mostrou algumas discussões sobre /accountability/ e transparência, no sentido de, como prevenir spams ou bots maliciosos, 
+ao mesmo tempo à não bloquear bots não maliciosos e informações não censuráveis? Para tal, será que algo a mais não deve ser feito em
+outras camadas, como na camada de rede? E assim tem se questionado técnicas de segurança como a criptografia de ponta a ponta dos pacotes 
+que transitam a camada de rede, no sentido de remover tal criptografia pra tatar os dados antes de transitarem na mesma. Mas, isso 
+infligiria muitos conceitos de privacidade, e então ainda é uma questão em aberto.
