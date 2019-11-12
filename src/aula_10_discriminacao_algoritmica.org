@@ -1,0 +1,116 @@
+#+STARTUP: overview indent inlineimages logdrawer
+#+TITLE: MAC0458 - Direito e Software \linebreak \newline Discriminação Algorítmica
+#+AUTHOR: Anderson Andrei da Silva
+#+LANGUAGE:    bt-br
+#+TAGS: noexport(n) Stats(S)
+#+TAGS: Teaching(T) R(R) OrgMode(O) Python(P)
+#+TAGS: Book(b) DOE(D) Code(C) NODAL(N) FPGA(F) Autotuning(A) Arnaud(r)
+#+TAGS: DataVis(v) PaperReview(W)
+#+EXPORT_SELECT_TAGS: Blog
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+COLUMNS: %25ITEM %TODO %3PRIORITY %TAGS
+#+SEQ_TODO: TODO(t!) STARTED(s!) WAITING(w@) APPT(a!) | DONE(d!) CANCELLED(c!) DEFERRED(f!)
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
+#+LATEX_HEADER: \usepackage{sourcecodepro}
+#+LATEX_HEADER: \usepackage{booktabs}
+#+LATEX_HEADER: \usepackage{array}
+#+LATEX_HEADER: \usepackage{colortbl}
+#+LATEX_HEADER: \usepackage{listings}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage[english]{babel}
+#+LATEX_HEADER: \usepackage[scale=2]{ccicons}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \usepackage{relsize}
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{bm}
+#+LATEX_HEADER: \usepackage{wasysym}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage{ragged2e}
+#+LATEX_HEADER: \usepackage{textcomp}
+#+LATEX_HEADER: \usepackage{pgfplots}
+#+LATEX_HEADER: \usepackage{todonotes}
+#+LATEX_HEADER: \lstdefinelanguage{Julia}%
+#+LATEX_HEADER:   {morekeywords={abstract,struct,break,case,catch,const,continue,do,else,elseif,%
+#+LATEX_HEADER:       end,export,false,for,function,immutable,mutable,using,import,importall,if,in,%
+#+LATEX_HEADER:       macro,module,quote,return,switch,true,try,catch,type,typealias,%
+#+LATEX_HEADER:       while,<:,+,-,::,/},%
+#+LATEX_HEADER:    sensitive=true,%
+#+LATEX_HEADER:    alsoother={$},%
+#+LATEX_HEADER:    morecomment=[l]\#,%
+#+LATEX_HEADER:    morecomment=[n]{\#=}{=\#},%
+#+LATEX_HEADER:    morestring=[s]{"}{"},%
+#+LATEX_HEADER:    morestring=[m]{'}{'},%
+#+LATEX_HEADER: }[keywords,comments,strings]%
+#+LATEX_HEADER: \lstset{ %
+#+LATEX_HEADER:   backgroundcolor={},
+#+LATEX_HEADER:   basicstyle=\ttfamily\scriptsize,
+#+LATEX_HEADER:   breakatwhitespace=true,
+#+LATEX_HEADER:   breaklines=true,
+#+LATEX_HEADER:   captionpos=n,
+# #+LATEX_HEADER:   escapeinside={\%*}{*)},
+#+LATEX_HEADER:   extendedchars=true,
+#+LATEX_HEADER:   frame=n,
+#+LATEX_HEADER:   language=R,
+#+LATEX_HEADER:   rulecolor=\color{black},
+#+LATEX_HEADER:   showspaces=false,
+#+LATEX_HEADER:   showstringspaces=false,
+#+LATEX_HEADER:   showtabs=false,
+#+LATEX_HEADER:   stepnumber=2,
+#+LATEX_HEADER:   stringstyle=\color{gray},
+#+LATEX_HEADER:   tabsize=2,
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \renewcommand*{\UrlFont}{\ttfamily\smaller\relax}
+
+A palestrante Marcela Mattiuzzo falou sobre discriminação algorítmica de forma a construir esse conceito através do
+entendimento dessas duas palavras separadamente, e então abordou o entendimento jurídico atual. Por fim,
+levantou várias discussões quanto a relevância e consequências dentro ciência da dados.
+
+Marcela iniciou sua palestra construindo o conceito de algoritmos, pela definição de algorítmos em geral, 
+como um conjunto de instruções ou ações com alguma finalidade, e a pela definição de algorítmos "computáveis" que são
+aqueles com o propósito "único" de fazer cálculos.
+Da mesma forma, antes de discutir o termo "discriminação algorítmica" em si, Marcela construiu o conceito de 
+discriminação, orientadas por perguntas como, o que é discriminação ou o ato de discriminar? Como um algoritmo 
+pode fazer isso? 
+
+No sentido geral da palavra, discriminar é generalizar algum tipo de informação, podendo ocorrer de forma sólida ou
+problemática. A primeira se dá em contexto universal, ou seja, uma generalização verdadeiramente global; com 
+base em características de uma certa maioria; ou ainda de forma comparativa, trazendo a comparação de duas ou mais 
+generalizações feitas em pequenos grupos. 
+Já a segunda forma, problemática, se dá através de generalizações a serem questionadas ou problematizadas,
+pelo significado direto da palavra.
+
+O ponto principal é que discriminar alguma informação entende o tratamento daquela informação ou dado. Ou seja,
+para que alguma generalização seja feita, aqueles dados em questão devem ser analisados. 
+Do ponto de vista jurídico, existe a Lei Geral de Proteção de Dados que abordar o princípio da não discrminação, 
+que é a impossibilidade de realização de tratamento de dados pessoais para fins discriminatório ilícitos ou abusivos. 
+Onde, ilícito é aquilo que o ordenamento jurídico define como proibido ou que decorre de um erro estatístico patente.
+E abusivo é aquilo que, não obstante estatisticamente correto e não expressamente proibido, leva a resultado 
+indesejado ou "injusto".
+
+Marcela nos trouxe um exemplo de um algorítmo utilizado nos Estados Unidos para gerenciamento da população encarcerada,
+que passou a ser utilizado em julgamentos, e em alguns casos de forma a se tornar um dos argumentos de maior peso para
+uma decisão de prisão ou não. Esse, é um exemplo claro de uso abusivo de um algoritmo, pois, por não ser projetado
+para isso, o mesmo não se comportava ou retornava o que se espera em decisões de julgamentos, sendo assim, de uso injusto. 
+A lei garante direito à resposta, ou seja, à defesa. Mas, o mesmo não retornava justificativas para as decisões tomadas, 
+ferindo totalmente tal direito.
+
+Com esses conceitos elaborados, Marcela levantou aspesctos relevantes para uma discussão sobre o tema,
+como, consciência da questão, desenvolvimento de algoritmos "ethical by design", formação de profissionais capazes
+de identificar o problema e lidar com ele, governança algorítmica e ética e inteligência artificial. Tais aspectos
+tangem decisões como, voltando ao caso de um algoritmo para decisões judiciais: ainda hoje, um algoritmo não consegue
+circusntanciar tão bem diferentes contextos ou situações. Por esse e outros motivos que não se aplica à algorimos 
+toda a responsabilidade de uma decisão judicial, ou seja, ainda precisamos de seres humanos para tal função. 
+Outros pontos dessa discussão, e também pertinentes em outros contextos são: 
+a quem responsabilizar uma decisão? Seria possível abrir o código de um algoritmo patenteado? 
+
+E assim Marcela terminou sua palestra discutindo mais algumas perguntas em aberto nesse contexto como um algoritmo 
+consegue aplicar totalmente o conceito de justidade? Podem algoritmos tomar decisões mais sensíveis? Podemos utilizar
+algoritmos para auxiliar decisões em cima de contextos ou situações que já ocorreram diversas vezes? E em contextos
+inéditos? Ou seja, essa é uma área bastante sensível, que trata de assuntos e ações importantes, que devem ser estudadas
+com cautela, pois em geral, não se tem respostas imediatas.
+
+
