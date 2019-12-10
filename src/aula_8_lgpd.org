@@ -1,0 +1,132 @@
+#+STARTUP: overview indent inlineimages logdrawer
+#+TITLE: MAC0458 - Direito e Software \linebreak \newline Lei Geral de Proteção de Dados
+#+AUTHOR: Anderson Andrei da Silva
+#+LANGUAGE:    bt-br
+#+TAGS: noexport(n) Stats(S)
+#+TAGS: Teaching(T) R(R) OrgMode(O) Python(P)
+#+TAGS: Book(b) DOE(D) Code(C) NODAL(N) FPGA(F) Autotuning(A) Arnaud(r)
+#+TAGS: DataVis(v) PaperReview(W)
+#+EXPORT_SELECT_TAGS: Blog
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+COLUMNS: %25ITEM %TODO %3PRIORITY %TAGS
+#+SEQ_TODO: TODO(t!) STARTED(s!) WAITING(w@) APPT(a!) | DONE(d!) CANCELLED(c!) DEFERRED(f!)
+
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
+#+LATEX_HEADER: \usepackage{sourcecodepro}
+#+LATEX_HEADER: \usepackage{booktabs}
+#+LATEX_HEADER: \usepackage{array}
+#+LATEX_HEADER: \usepackage{colortbl}
+#+LATEX_HEADER: \usepackage{listings}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage[english]{babel}
+#+LATEX_HEADER: \usepackage[scale=2]{ccicons}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \usepackage{relsize}
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{bm}
+#+LATEX_HEADER: \usepackage{wasysym}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage{ragged2e}
+#+LATEX_HEADER: \usepackage{textcomp}
+#+LATEX_HEADER: \usepackage{pgfplots}
+#+LATEX_HEADER: \usepackage{todonotes}
+#+LATEX_HEADER: \lstdefinelanguage{Julia}%
+#+LATEX_HEADER:   {morekeywords={abstract,struct,break,case,catch,const,continue,do,else,elseif,%
+#+LATEX_HEADER:       end,export,false,for,function,immutable,mutable,using,import,importall,if,in,%
+#+LATEX_HEADER:       macro,module,quote,return,switch,true,try,catch,type,typealias,%
+#+LATEX_HEADER:       while,<:,+,-,::,/},%
+#+LATEX_HEADER:    sensitive=true,%
+#+LATEX_HEADER:    alsoother={$},%
+#+LATEX_HEADER:    morecomment=[l]\#,%
+#+LATEX_HEADER:    morecomment=[n]{\#=}{=\#},%
+#+LATEX_HEADER:    morestring=[s]{"}{"},%
+#+LATEX_HEADER:    morestring=[m]{'}{'},%
+#+LATEX_HEADER: }[keywords,comments,strings]%
+#+LATEX_HEADER: \lstset{ %
+#+LATEX_HEADER:   backgroundcolor={},
+#+LATEX_HEADER:   basicstyle=\ttfamily\scriptsize,
+#+LATEX_HEADER:   breakatwhitespace=true,
+#+LATEX_HEADER:   breaklines=true,
+#+LATEX_HEADER:   captionpos=n,
+# #+LATEX_HEADER:   escapeinside={\%*}{*)},
+#+LATEX_HEADER:   extendedchars=true,
+#+LATEX_HEADER:   frame=n,
+#+LATEX_HEADER:   language=R,
+#+LATEX_HEADER:   rulecolor=\color{black},
+#+LATEX_HEADER:   showspaces=false,
+#+LATEX_HEADER:   showstringspaces=false,
+#+LATEX_HEADER:   showtabs=false,
+#+LATEX_HEADER:   stepnumber=2,
+#+LATEX_HEADER:   stringstyle=\color{gray},
+#+LATEX_HEADER:   tabsize=2,
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \renewcommand*{\UrlFont}{\ttfamily\smaller\relax}
+
+A palestrante Mariana Rielli nos apresentou a Lei Geral de Proteção de dados, passando pela trajetória de 
+sua composição, sua descrição de forma mais detalhada, o que a mesma regula, seus princípios gerais, legais, e 
+discutiu o cenário atual da lei. Passou também pela Lei do Titular e finalizou falando um pouco sobre privacidade
+desde à estruturação e fundamentação de algum projeto (PbD).
+
+Iniciando pelo o que Mariana chamou de "Via Crucis" da LGPD, ela nos mostrou que essa não é uma discussão nova, mas que
+na verdade, vem sido desenvolvida desde 2010, onde houve a primeira consulta pública sobre o tema. Infelizmente tal
+ação não gerou tanta repercursão, fazendo com que o assunto fosse retomado com certo foco ou urgência apenas em 2014,
+quando ocorreu o caso Snowden, sobre o vazamento de informações governamentais dos Estados Unidos. Assim, em 2015 houve
+a segunda consulta pública, onde então o tema foi amadurecido e contou com a surpreendente contribição de 2500 pessoas,
+tanto dentro como fora do país. Em 2016, houve a criaçao de mais um projeto de lei, sendo o terceiro dentro do contexto,
+pois dois já haviam sido criados, um em 2012 e o outro em 2013. Mas, até então, nada havia sido fechado como um texto
+único, devido a tantas contribuições e um volume resultante muito grande. Então, em 2018 por conta de uma conjuntuntura 
+política, onde em ordem, ocorreu o caso Cambridge Analytics, a regulamentação da Proteção de Dados na Europa e o 
+Cadastro Positivo no Brasil, no dia 14 de Agosto de 2018 a lei de proteção de dados pessoais foi sancionada e entrará em
+vigor em 2020, no Brasil.
+
+Mariana nos mostrou que podemos entender a LGPD como um grande quebra cabeças, onde suas várias peças são diversas leis,
+políticas e ações que até então não estavam conectadas, o que ocorrerá quando a lei entrar em vigor. Assim sendo, até lá,
+ainda existem formas de proteger nossos dados, por meio de tais peças que agem em diversas áreas como na saúde, educação, 
+mobilidade urbana, no setor público, e até mesmo no âmbito online.
+E então, abordando a LGPD como a junção de todos esse recursos, podemos concluir que ela atua em todos os setores. E 
+o que foi ressaltado por Mariana é que além de proteger nossos dados, a LGPD surge com dupla função. Ou seja, além do efeito de 
+proteção, ela tem causado efeitos econômicos, pois, agora as empresas terão que se adequar para seguir a nova lei que 
+entrará em vigor, de forma a se reestruturarem em diversas formas.
+
+Quanto ao que a LGPD regula, dentro de um escopo que intersecta dados pessoais e dados anonimizados, a lei se aplica de
+forma online ou offline, no setor privado ou público, em dados corporativos e até extraterritoriais. Trata dados pessoais
+como os que indentificam ou podem identificar usuários. Trata dados sensíveis como aqueles que podem acarretar em
+práticas discriminatórias, informações tais como saúde, orientação sexual, biometria, e explicitamente dados de crianças
+e adolescentes. Não define muito bem o que seriam dados anonimizados, mas trás critérios para filtrar dados como custo,
+tempo e estado da arte da tecnologia. E por último, o termo profiling que é caracterizado como a intersecção entre dados pessoais 
+e dados anonimizados, consiste em dados obtidos através de análise consequencialistas ou decisões automatizadas.
+
+Mariana nos mostrou os princípios gerais da LGPD e suas definições que são finalidade: realização do tratamento dependendo
+de seu propósito; adequação: verificação da compatibilidade do tratamento de acordo com suas finalidade e contexto; 
+necessidade: limitação do tratamento ao mínimo necessário para a realização de suas finalidades; livre acesso: garantia
+de fácil acesso, gratuito, aos titulares; qualidade de dados: garantia de exatidão e relevância dos dados, aos titulares;
+transparência: garantia de clareza das informações, aos titulares; segurança: utilização de mediadas que garantam a
+proteção dos dados; prevenção: adoção de medidas para prevenção de danos; não discriminação: impossibilitação do tratamento
+para fins discriminatórios ilícitos ou abusivos; prestação de contas: demonstração das medidas utilizadas e comprovação 
+do cumprimento das normas de proteção de dados pessoas.
+
+E dentro do cenário atual a LGPD tem discutido como melhor tratar o que é tido como consentimento dos titulares dos dados,
+fator que está fortemente envolvido nos processos desse contexto, como por exemplo no ciclo: 1. obtenção de informação,
+2. especificação da finalidade, 3. consentimento, 4. tratamento dos dados, 5. consentimento, 6. compartilhamento. E então,
+esse compoem um "cardápio" de bases legais, juntamente com bases de processos judiciais, proteção ao crédito, obrigações 
+legais e etc. E como explicitado anteriormente, existe a preocupação em separar e tratar de forma específica dados sobre
+crianças e adolescentes, esse mesmo "menu" que envolve tais bases legais, tem uma base de consentimento específica para tal.
+E não necessariamente vinculado, mas de certa forma relacionado, Mariana nos mostrou uma rede de direito dos 
+titulares dos dados, que é composta por elementos como retificação, explicação, portabilidade, acesso, oposição, 
+cancelamento e revisão de decisões automatizadas.
+
+Como levantado no início, um impacto causado pela LGPD ocorre no âmbito econônomico no sentido de obrigar empresas
+a reformularem suas estruturas para seguirem essa nova lei a partir de 2020. Assim, Mariana abordou ao final, formas
+de como pensar privacidade dos dados desde a estruturação de algum modelo de projeto que vá lidar com dados sensíveis,
+empresas e etc. O modelo Privacy by Design (PbD) se baseia em uma abordagem centrada no usuário, ou seja, em seus direitos;
+adotar princípios de transparência para o usuário; adotar medidas de prevenção; pensar na privacidade durante toda
+a concepção; e por fim, proteger os dados em todo seu ciclo de vida.
+
+Assim, Mariana nos mostrou de forma bem abrangente vários fatores envolvendo a LGPD, desde sua história até a situação atual
+e podemos ver assim como ela se relaciona e une diversas outras leis e métodos de proteção de dados pessoais. O que é muito
+interessante de se enxergar são os reflexos econômicos que a mesma tem gerado, e saber que então agora tem se discutido metodologias 
+para pensar desde o início como tratar e lidar com informações tão importantes quanto dados pessoais.

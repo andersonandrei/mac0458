@@ -1,0 +1,114 @@
+#+STARTUP: overview indent inlineimages logdrawer
+#+TITLE: MAC0458 - Direito e Software \linebreak \newline Marco Civil da Internet
+#+AUTHOR: Anderson Andrei da Silva
+#+LANGUAGE:    bt-br
+#+TAGS: noexport(n) Stats(S)
+#+TAGS: Teaching(T) R(R) OrgMode(O) Python(P)
+#+TAGS: Book(b) DOE(D) Code(C) NODAL(N) FPGA(F) Autotuning(A) Arnaud(r)
+#+TAGS: DataVis(v) PaperReview(W)
+#+EXPORT_SELECT_TAGS: Blog
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+COLUMNS: %25ITEM %TODO %3PRIORITY %TAGS
+#+SEQ_TODO: TODO(t!) STARTED(s!) WAITING(w@) APPT(a!) | DONE(d!) CANCELLED(c!) DEFERRED(f!)
+
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
+#+LATEX_HEADER: \usepackage{sourcecodepro}
+#+LATEX_HEADER: \usepackage{booktabs}
+#+LATEX_HEADER: \usepackage{array}
+#+LATEX_HEADER: \usepackage{colortbl}
+#+LATEX_HEADER: \usepackage{listings}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage[english]{babel}
+#+LATEX_HEADER: \usepackage[scale=2]{ccicons}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \usepackage{relsize}
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{bm}
+#+LATEX_HEADER: \usepackage{wasysym}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage{ragged2e}
+#+LATEX_HEADER: \usepackage{textcomp}
+#+LATEX_HEADER: \usepackage{pgfplots}
+#+LATEX_HEADER: \usepackage{todonotes}
+#+LATEX_HEADER: \lstdefinelanguage{Julia}%
+#+LATEX_HEADER:   {morekeywords={abstract,struct,break,case,catch,const,continue,do,else,elseif,%
+#+LATEX_HEADER:       end,export,false,for,function,immutable,mutable,using,import,importall,if,in,%
+#+LATEX_HEADER:       macro,module,quote,return,switch,true,try,catch,type,typealias,%
+#+LATEX_HEADER:       while,<:,+,-,::,/},%
+#+LATEX_HEADER:    sensitive=true,%
+#+LATEX_HEADER:    alsoother={$},%
+#+LATEX_HEADER:    morecomment=[l]\#,%
+#+LATEX_HEADER:    morecomment=[n]{\#=}{=\#},%
+#+LATEX_HEADER:    morestring=[s]{"}{"},%
+#+LATEX_HEADER:    morestring=[m]{'}{'},%
+#+LATEX_HEADER: }[keywords,comments,strings]%
+#+LATEX_HEADER: \lstset{ %
+#+LATEX_HEADER:   backgroundcolor={},
+#+LATEX_HEADER:   basicstyle=\ttfamily\scriptsize,
+#+LATEX_HEADER:   breakatwhitespace=true,
+#+LATEX_HEADER:   breaklines=true,
+#+LATEX_HEADER:   captionpos=n,
+# #+LATEX_HEADER:   escapeinside={\%*}{*)},
+#+LATEX_HEADER:   extendedchars=true,
+#+LATEX_HEADER:   frame=n,
+#+LATEX_HEADER:   language=R,
+#+LATEX_HEADER:   rulecolor=\color{black},
+#+LATEX_HEADER:   showspaces=false,
+#+LATEX_HEADER:   showstringspaces=false,
+#+LATEX_HEADER:   showtabs=false,
+#+LATEX_HEADER:   stepnumber=2,
+#+LATEX_HEADER:   stringstyle=\color{gray},
+#+LATEX_HEADER:   tabsize=2,
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \renewcommand*{\UrlFont}{\ttfamily\smaller\relax}
+
+O palestrante Rafael Zanatta abordou o tema mostrando que essa e a discussão sobre algo como a LGPD existem desde muito tempo atrás.
+Ele iniciou falando sobre a criação da internet e todas as projeções que esse feito trouxe, mostrou que começou-se então a discutir
+proteção de dados, mas, com perspectitivas totalmente diferentes as atuais, devido as expectativas da época quanto à internet. 
+Mostrou também as preocupações iniciais sobre privacidade e nos mostrou alguns autores referência no assunto. 
+Depois, trouxe a discussão para o Brasil, desde a ditadura militar até os dias atuais com o Marco Civil da Internet. Explicou o que o mesmo
+defende e protege e por fim abordou discussões de como isso irá se manter e quais são as fronteiras ainda não atingidas.
+
+Desde 29 de Outubro de 1969 com a primeira troca bem sucedida de pacotes de pela rede, em Berkley, marcando assim o início da Internet,
+haviam discussões sobre o impacto dos computadores na sociedade e assuntos que permeavam como seria a proteção de dados nesse novo contexto.
+Alan Westin nessa época discutia privacidade, questionando o que esse contexto abrange e o que deveria realmente ser protegido.
+Assim, a define como o controle do fluxo sobre seus próprios dados, e Stefano Rodotá acrescenta posteriormente à tal definição a relação da
+dignidade do indivíduo com seus dados. Westin contribuiu em 1979 para a criação dos Fair Information Principles 
+nos Estados Unidos, que fundamentalmente defendiam a não existência de bases de dados secretas, pois, em 1967 foi criado o National Database,
+que era uma base do governo com diversas informações.
+
+Em paralelo, a criação da Internet trouxe o que ficou conhecido como "A Ilusão do Cyberespaço", que era, ná época, a especulação de diversas
+consequências que esse novo advento traria. Nesse meio, acreditava-se que a no ambiente virtual não se precisaria de regras para proteção de 
+dados ou boas práticas, pois ali, a sociedade se moldaria e aprenderia a conviver de forma correta uns com os outros. Nesse contexto por exemplo,
+temos a criação dos Creative Commons para remover a ideia de patentes como eram ditas.
+Mas, o que ocorreu é que em um certo ponto a industria começou utilizar e gerar custos em cima de recursos da Internet, intervindo nesses 
+planos e direções iniciais. Assim, começou-se a discutir os Direitos Digitais, pirataria e afins.
+
+Enquanto isso, no Brasil, durante a ditadura exisitia o Registro Nacional de Pessoas(RENAPE) que em contato com o Serviço Nacional de 
+Inteligencia (SNI) monitorava a população. Em contrapartida, surgiu o CEBRAPE que investigava tais ações do RENAPE e SNI, pressionando-os
+e com apoio da OAB conseguiram encerrar o RENAPE. Por volta dessa época, seguindo esse fluxo de ações, em 1978 houve a primeira tentativa
+de se criar algo como a LGPD, mas foi totalmente ignorada, seguida pela segunda tentativa falha em 1985.
+
+Em 2013, o caso Snowden influencia fortemente a retomada dessa discussão de proteção de dados e como ela deve ocorrer. Isso acarretou em 2014
+na primeira estruturação da Lei Geral de Proteção de Dados e na criação do Marco Civil da Internet. A primeira, vem sendo modificada até 2018, 
+quando teve seu texto finalizado, e o segundo, age na privacidade dentro da rede e garantindo a neutralidade da mesma, ou seja, o provedor 
+de internet não pode interferir nos dados que transitam ali, deve apenas fazer a entrega. Assim, as plataformas não pode ser criminalizadas 
+pois só exibem ou transmitem as informações.
+
+E após as definições sobre o tema, Rafael entra na discussão se essas normas vão se manter, dado casos como 1) o surgimento de elementos como 
+Fake News: deveria a plataforma verificar a veracidade da informação antes de publicá-la? 2) direitos autorais: deveria o Google resultar 
+consultas que infligem o acesso à conteúdos com direitos autorais? 3) direitos do consumidor: deveria o Facebook como uma plataforma provedora, 
+decretar/ negar algo diretamente à um usuário, já que esse na verdade é um consumidor? 
+
+Além de tais discussões, Rafael finaliza sua palestra apontando fronteiras onde nem o Marco Civil da Internet e nem a LGPD tem tratado a 
+proteção de dados ou a privacidade de usuários, como a discriminação de dados de créditos, o reconhecimento facial e desigualdade de acesso.
+E trouxe um exemplo onde a linha Azul do metrô abriu uma licitação para a instalação de câmeras de segurança com reconhecimento facial 
+dos usuários, conectada à uma base de dados policial. O que é claramente uma invasão de privacidade, mas é justificada como uma ação de 
+segurança pública, e assim nem a LGPD nem o Marco Civil tratam o caso.
+
+
+
