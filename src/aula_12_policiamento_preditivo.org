@@ -1,0 +1,115 @@
+#+STARTUP: overview indent inlineimages logdrawer
+#+TITLE: MAC0458 - Direito e Software \linebreak \newline Policiamento Preditivo
+#+AUTHOR: Anderson Andrei da Silva
+#+LANGUAGE:    bt-br
+#+TAGS: noexport(n) Stats(S)
+#+TAGS: Teaching(T) R(R) OrgMode(O) Python(P)
+#+TAGS: Book(b) DOE(D) Code(C) NODAL(N) FPGA(F) Autotuning(A) Arnaud(r)
+#+TAGS: DataVis(v) PaperReview(W)
+#+EXPORT_SELECT_TAGS: Blog
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+COLUMNS: %25ITEM %TODO %3PRIORITY %TAGS
+#+SEQ_TODO: TODO(t!) STARTED(s!) WAITING(w@) APPT(a!) | DONE(d!) CANCELLED(c!) DEFERRED(f!)
+
+#+LATEX_CLASS_OPTIONS: [a4paper]
+#+LATEX_HEADER: \usepackage[margin=2cm]{geometry}
+#+LATEX_HEADER: \usepackage{sourcecodepro}
+#+LATEX_HEADER: \usepackage{booktabs}
+#+LATEX_HEADER: \usepackage{array}
+#+LATEX_HEADER: \usepackage{colortbl}
+#+LATEX_HEADER: \usepackage{listings}
+#+LATEX_HEADER: \usepackage{graphicx}
+#+LATEX_HEADER: \usepackage[english]{babel}
+#+LATEX_HEADER: \usepackage[scale=2]{ccicons}
+#+LATEX_HEADER: \usepackage{hyperref}
+#+LATEX_HEADER: \usepackage{relsize}
+#+LATEX_HEADER: \usepackage{amsmath}
+#+LATEX_HEADER: \usepackage{bm}
+#+LATEX_HEADER: \usepackage{wasysym}
+#+LATEX_HEADER: \usepackage{float}
+#+LATEX_HEADER: \usepackage{ragged2e}
+#+LATEX_HEADER: \usepackage{textcomp}
+#+LATEX_HEADER: \usepackage{pgfplots}
+#+LATEX_HEADER: \usepackage{todonotes}
+#+LATEX_HEADER: \lstdefinelanguage{Julia}%
+#+LATEX_HEADER:   {morekeywords={abstract,struct,break,case,catch,const,continue,do,else,elseif,%
+#+LATEX_HEADER:       end,export,false,for,function,immutable,mutable,using,import,importall,if,in,%
+#+LATEX_HEADER:       macro,module,quote,return,switch,true,try,catch,type,typealias,%
+#+LATEX_HEADER:       while,<:,+,-,::,/},%
+#+LATEX_HEADER:    sensitive=true,%
+#+LATEX_HEADER:    alsoother={$},%
+#+LATEX_HEADER:    morecomment=[l]\#,%
+#+LATEX_HEADER:    morecomment=[n]{\#=}{=\#},%
+#+LATEX_HEADER:    morestring=[s]{"}{"},%
+#+LATEX_HEADER:    morestring=[m]{'}{'},%
+#+LATEX_HEADER: }[keywords,comments,strings]%
+#+LATEX_HEADER: \lstset{ %
+#+LATEX_HEADER:   backgroundcolor={},
+#+LATEX_HEADER:   basicstyle=\ttfamily\scriptsize,
+#+LATEX_HEADER:   breakatwhitespace=true,
+#+LATEX_HEADER:   breaklines=true,
+#+LATEX_HEADER:   captionpos=n,
+# #+LATEX_HEADER:   escapeinside={\%*}{*)},
+#+LATEX_HEADER:   extendedchars=true,
+#+LATEX_HEADER:   frame=n,
+#+LATEX_HEADER:   language=R,
+#+LATEX_HEADER:   rulecolor=\color{black},
+#+LATEX_HEADER:   showspaces=false,
+#+LATEX_HEADER:   showstringspaces=false,
+#+LATEX_HEADER:   showtabs=false,
+#+LATEX_HEADER:   stepnumber=2,
+#+LATEX_HEADER:   stringstyle=\color{gray},
+#+LATEX_HEADER:   tabsize=2,
+#+LATEX_HEADER: }
+#+LATEX_HEADER: \renewcommand*{\UrlFont}{\ttfamily\smaller\relax}
+
+Para construir o termo tema da palestra, a palestrante Letícia Simões abordou primeiramente o que seria policiamento na sociedade,
+questionando inicialmente para que a polícia serve e quais são os tipos de policiamento existentes. E então, quando construiu o termo 
+"policiamento preditivo", o abordou seguindo por suas fases, modalidades, consequências de aplicações e dificuldades.
+
+Foi questionado aos alunos qual era o papel da polícia na sociedade, e os mesmo responderam dentro do esperado: manutenção da ordem pública,
+combate ao crime e promoção da segurança pública. E o que Letícia ressaltou foi que dentro dessas características, a polícia toma ora
+caráter repressivo/ dissuasório, ora proativo, e então entrou em dois tipos de policiamento: comunitário sendo aquele voltado à resolução
+de problemas e de uma polícia mais presente dentre os grupos e locais da sociedade, resolvendo tais problemas juntamente à nós. O segundo, o
+policiamento inteligente se refere ao policiamento preditivo, com investigações e caráter de antecipação à crimes ou ações.
+
+Esse último tipo de policiamento nos insere no tema de policiamento preditivo, que consiste na utilização da modelagem de dados
+criminais para predição de crimes futuros, também considerado como a fusão da tecnologia da informaçao, teoria criminológica e algoritmos
+preditivos. Tal processo passa pelas seguintes fases: coleta de dados de uma cena de crime, cruzamento com dados criminais socio-economicos
+e demográficos da região onde ocorreu, então tais dados são utilzados junto com variáveis indicadores de crime, e tudo isso é colocado em 
+um modelo estatístico que vai gerar um evento de probabilidade para a ocorrência de um crime com tais características naquela região.
+E ao final, fazendo o mesmo para várias regiões, é gerado um mapa de regiões de risco.
+
+Além disso, o policiamento preditivo pode ser separado em diferentes modalidades: baseados em localidade, como exemplificado no modelo de
+processamento acima, podem ser baseados individualmente, através de níveis individuais de avaliação e uma rede de análise de ações e 
+comportamentos de cada indivíduo, e por último, podem ser baseados em suspeitas, que derivam do agrupamento do modo anterior, ou seja,
+são criados grupos de pessoas ou características que passam a compor então um perfil de suspeita.
+
+Para o processamento e manutenção desses procedimentos podem ser utilizados diversos recursos tecnológicos como câmeras de reconhecimento
+facial, drones, sensores de ambiente, aplicativos e etc. E como cada recurso depende, utiliza ou gera tipos diferentes de informação,
+os dados enolvidos podem mudar. Mas, em geral, todos tem pelo menos algumas bases de dados em comum, como banco de dados do Estado, do 
+Sistema Criminal de Justiça ou Assistências Sociais, dados socioeconômicos e demográficos, e um recurso que tem crescido com o tempo 
+proporcionalmente com sua utilização pela população, as redes sociais.
+
+Letícia também abordou, quais são os objetivos "secundários" que são alcançados ao se utilizar tais ferramentas e técnicas, são eles, por exemplo:
+redução de custos, eficiência, neutralidade e o que conhecemos como "accountability". Todos se baseiam no fato de que a maioria dos
+processos serão automatizados e se por estudos criminológicos é possível afirmar que tais tipo de crime são recorrentes em tais regiões,
+tais técnicas informatizadas e automatizadas podem realmente auxiliar na agilidade de ações preditivas, e por serem informatizados reduzem 
+o número de funcionários envolvidos para tal, reduzindo custos. 
+E mesmo que agora muitos algoritmos sejam os responsáveis por tomar as decisões, também permitem a averiguação e justificativa
+por tais decisiões.
+
+Mas, o fato de tais técnicas serem informatizadas, dependentes de técnologia, tambm é um dos maiores motivos de dificuldades encontradas: 
+será que o algoritmo à um certo ponto de aprendizado não passa a tomar um viés à certas decisões, ou o programador mesmo sem perceber direcionou tal tendência? Ou será
+que um algoritmo não é algo muito inflexível para tomar tais decisões?  
+Por ser tão dependente de suas bases de dados, a inconsistêcia das mesmas é um grande problema e pode invalidar uma séria de análise consequêntes
+ao uso de tal base. Outro fator muito importante que deve ser tratado com muito cuidado é a privacidade de dados, até onde esses modelos ou 
+tecnologias utilizadas não invadem a privacidade das pessoas?
+
+Letícia nos trouxe um tema muito interessante e importante. Ela construiu e abordou o mesmo passo a passo e nos mostrou a intuição de trazer
+automatização para processos de policiamento, e ao final discussões que parecem ser constantes e importante que assim sejam para a manutenção
+de tais técnicas. Assim, esse parece ser um tema que ainda tem muito à evoluir, parece que conforme a técnologia se desenvolver, mais
+ele tem a se aperfeiçoar, mas ainda sim envolve muitos dados e áreas sensíveis que devem ser tratados da melhor forma possível.
